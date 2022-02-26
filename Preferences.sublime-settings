@@ -1,10 +1,26 @@
 // Settings in here override those in "Default/Preferences.sublime-settings",
 // and are overridden in turn by syntax-specific settings.
 {
+    // On Mac, this value is overridden in the platform specific settings.
+    "hardware_acceleration": "opengl",
+
     // Set to true to automatically save files when switching to a different file
     // or application
     "save_on_focus_lost": true,
 
     // Set to true to insert spaces when tab is pressed
     "translate_tabs_to_spaces": true,
+    "font_size": 12,
+    "color_scheme": "Mariana.sublime-color-scheme",
+    "theme": "Default Dark.sublime-theme",
+    "ignored_packages":
+    [
+		"Vintage",
+    ],
+
+    // Enable auto complete to be triggered automatically when typing.
+    "auto_complete": false,
+
+    // Controls auto pairing of quotes, brackets etc
+    "auto_match_enabled": false,
 }
